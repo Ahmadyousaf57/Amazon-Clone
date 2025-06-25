@@ -1,0 +1,68 @@
+/* Login page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 50px;
+  padding: 50px;
+  justify-content: center;
+  height: auto;
+}
+
+.login-form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  justify-content: center;
+  border-radius: 50px;
+  box-shadow: #ccc 0px 0px 10px;
+}
+
+h2{
+ 
+ 
+ text-align: center;
+      margin-bottom: 20px;
+}
+#email, #password {
+  width: 95%;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#bb{
+  width: 101%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #4CAF50;
+}
+#Home{
+    width: 10px;
+   color: lightseagreen;
+    text-decoration: none;
+   
+}
+#signup-link{
+    color: #4CAF50;
+    text-decoration: none;
+    margin-left: 150px;
+}
+@media screen and (max-width: 600px) {
+  .login-form {
+    width: 90%;
+    padding: 20px;
+  }
+  #email, #password, #bb {
+    width: 100%;
+    padding: 15px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  
+}
