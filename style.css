@@ -559,7 +559,7 @@ footer {
     }
 }
 @media screen and (max-width: 480px) {
-  .box , .product-grid  {
+  .box , .product-card  {
     width: 48%;
   }
 }
