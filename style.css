@@ -558,15 +558,15 @@ footer {
         flex-direction: column;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .box , .product-grid  {
     width: 48%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .box, .product-grid {
-    width: 100%;
+  .box, .product-card {
+    width: 48%;
   }
 }
 
